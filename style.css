@@ -14,4 +14,24 @@
         @apply text-2xl 
     }
 
+
+    .shadow-top {
+        box-shadow: 0 -30px 30px -10px rgba(0, 0, 0, 0.1), 0 -10px 20px -10px rgba(0, 0, 0, 0.06);
+    }
+
+    .box{
+        @apply shadow-md;
+        transform: translateX(400%);
+        transition: transform 0.8s ease;
+    }
+
+    .box:nth-of-type(even){
+        transform: translateX(-400%);
+    }
+
+    .box.show{
+        transform: translateX(0);
+    }
+
+
 }

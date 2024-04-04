@@ -14,13 +14,15 @@
         @apply text-2xl 
     }
 
+    .boxShit{
+        @apply grid grid-flow-col bg-white h-max p-2 rounded-md shadow-xl
+    }
 
     .shadow-top {
         box-shadow: 0 -30px 30px -10px rgba(0, 0, 0, 0.1), 0 -10px 20px -10px rgba(0, 0, 0, 0.06);
     }
 
     .box{
-        @apply shadow-md;
         transform: translateX(400%);
         transition: transform 0.8s ease;
     }

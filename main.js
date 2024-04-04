@@ -50,7 +50,7 @@ const fixproblem5 = document.getElementById("fixproblem5")
 
 function lv()
 {
-    titel.innerHTML = "Растрата бумаги"
+    titel.innerHTML = "Taupi papīru"
     why.innerHTML = "kapēc mes Izvēlējāmies papīru"
     whyDesc.innerHTML = "Jo mēs dzivojot valstij kur liela daļa no zemes ir mežš mums rūp mūsu un ekosistēmas veselība"
     problem.innerHTML = "problemas ko izraisa papīrs"
@@ -66,7 +66,7 @@ function lv()
 
 function rus()
 {
-    titel.innerHTML = "Taupi papīru"
+    titel.innerHTML = "Растрата бумаги"
     why.innerHTML = "kapēc mes Izvēlējāmies papīru"
     whyDesc.innerHTML = "Jo mēs dzivojot valstij kur liela daļa no zemes ir mežš mums rūp mūsu un ekosistēmas veselība"
     problem.innerHTML = "problemas ko izraisa papīrs"

@@ -14,11 +14,24 @@ function checkBoxes() {
     });
 }
 
+const titel = document.getElementById("title")
+const why = document.getElementById("why")
+const whyDesc = document.getElementById("whyDesc")
+const problem = document.getElementById("problem")
+const problem1 = document.getElementById("problem1")
+const problem2 = document.getElementById("problem2")
+const problem3 = document.getElementById("problem3")
+const fixproblem = document.getElementById("fixproblem")
+const fixproblem1 = document.getElementById("fixproblem1")
+const fixproblem2 = document.getElementById("fixproblem2")
+const fixproblem3 = document.getElementById("fixproblem3")
+const fixproblem4 = document.getElementById("fixproblem4")
 
 const button = document.getElementById("lang")
 var lang = "RUS"
 
 button.onclick = changeLang
+button.click()
 
 function changeLang() {
     if(lang == "LV"){
@@ -33,20 +46,6 @@ function changeLang() {
         rus()
     }
 }
-
-const titel = document.getElementById("title")
-const why = document.getElementById("why")
-const whyDesc = document.getElementById("whyDesc")
-const problem = document.getElementById("problem")
-const problem1 = document.getElementById("problem1")
-const problem2 = document.getElementById("problem2")
-const problem3 = document.getElementById("problem3")
-const fixproblem = document.getElementById("fixproblem")
-const fixproblem1 = document.getElementById("fixproblem1")
-const fixproblem2 = document.getElementById("fixproblem2")
-const fixproblem3 = document.getElementById("fixproblem3")
-const fixproblem4 = document.getElementById("fixproblem4")
-
 
 function lv()
 {

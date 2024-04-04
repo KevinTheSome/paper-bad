@@ -13,3 +13,21 @@ function checkBoxes() {
         }
     });
 }
+
+
+const button = document.getElementById("lang")
+var lang = "RUS"
+
+button.onclick = changeLang
+
+function changeLang() {
+    if(lang == "LV"){
+        button.innerHTML = "🇷🇺"
+        lang = "RUS"
+        console.log(lang);
+    }else{
+        button.innerHTML = "🇱🇻"
+        lang = "LV"
+        console.log(lang);
+    }
+}
